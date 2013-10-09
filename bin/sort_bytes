@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'sort_bytes'
+
+puts SortBytes::SizeSorter.new(ARGF.readlines).sorted
